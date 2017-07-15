@@ -49,7 +49,10 @@ ul {
 /* Login Page */
 
 .login.page {
-  background-color: #000;
+  background: #51a48a;
+  background-image: url("../bgtexture.png");
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 .login.page .form {
@@ -74,6 +77,7 @@ ul {
 
 .login.page .title {
   font-size: 200%;
+  font-family: 'Marcellus SC', serif;
 }
 
 .login.page .usernameInput {
@@ -103,10 +107,12 @@ ul {
 }
 
 .log {
-  color: gray;
-  font-size: 70%;
+  color: white;
+  font-size: 100%;
   margin: 5px;
   text-align: center;
+  font-weight: 700;
+  font-family: 'Marcellus SC', serif;
 }
 
 /* Messages */
@@ -121,10 +127,18 @@ ul {
   margin: 0;
   overflow-y: scroll;
   padding: 10px 20px 10px 20px;
+  background: #51a48a;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-image: url("../bgtexture.png");
 }
 
 .message.typing .messageBody {
   color: gray;
+}
+
+.messageBody {
+  font-family: 'Marcellus SC', serif;
 }
 
 .username {
@@ -132,12 +146,17 @@ ul {
   overflow: hidden;
   padding-right: 15px;
   text-align: right;
+  font-family: 'Marcellus SC', serif;
+}
+
+.usernameInput {
+  font-family: 'Marcellus SC', serif;
 }
 
 /* Input */
 
 .inputMessage {
-  border: 10px solid #000;
+  border: 10px solid #51a48a;
   bottom: 0;
   height: 60px;
   left: 0;
